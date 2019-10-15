@@ -1,0 +1,15 @@
+EXTRA_CFLAGS += -I/home/louw/Downloads/xenomai-3.0.5/kernel/drivers/net/stack/include
+
+obj-m += rt_e1000e.o
+
+rt_e1000e-objs := \
+	82571.o \
+	80003es2lan.o \
+	ich8lan.o \
+	lib.o \
+	netdev.o \
+	param.o \
+	phy.o
+
+
+
