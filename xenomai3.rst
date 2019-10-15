@@ -106,6 +106,8 @@ Some guidelines to configure the linux kernel:
                     --> New intel(R) PRO/1000 PCIe (Enable)
                     --> Realtek 8169 (Enable)
                     --> Loopback (Enable)
+               --> Protocol Stack
+                   --> Support for ETH_P_ALL (Enable)
             --> Add-Ons
                 --> Real-Time Capturing Support (Enable)
     * Power management and ACPI options
@@ -126,6 +128,8 @@ Some guidelines to configure the linux kernel:
       --> Contiguous Memory Allocation (Disable)
       --> Allow for memory compaction
         --> Page Migration (Disable)
+      --> Supervisor Mode Access Prevention (Disable)
+      // Ref : https://www.mail-archive.com/xenomai@xenomai.org/msg11510.html
     * Device Drivers
       --> Staging drivers
           --> Unisys SPAR driver support
