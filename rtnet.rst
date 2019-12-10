@@ -75,7 +75,7 @@ We'll need the following options:
 Configuration
 -------------
 
-The configuration file is located by default at ``/usr/local/rtnet/etc/rtnet.conf``
+The configuration file is located by default at ``/usr/xenomai/etc/rtnet.conf``
 Take a look at `this configuration file <https://github.com/kuka-isir/rtt_lwr/blob/master/lwr_scripts/config/rtnet.conf>`_.
 
 * **RT_DRIVER="rt_e1000e"** The driver we use (we have the Intel PRO/1000 GT)
